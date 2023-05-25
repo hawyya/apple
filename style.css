@@ -1,0 +1,529 @@
+
+body{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 44px;
+    background: #000000CC;
+    color: white;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: SF Pro Display;
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.335999995470047px;
+
+}
+
+.ulheader{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+}
+
+li{
+    display: flex;
+    padding-right: 42px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.searchimg{
+    position: absolute;
+    top: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.shopimg{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper{
+    background: url("bg1.png");
+    height: 736px;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: SF Pro Display;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.miniwrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.p1{
+    font-family: SF Pro Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.1120000034570694px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+}
+
+.link1{
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.23100000619888306px;
+    padding-right: 20px;
+}
+
+.link2{
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.23100000619888306px;
+}
+
+a{
+    text-decoration: none;
+    color: #0066CC;
+}
+
+.wrapper1{
+    background: url("bg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 736px;
+    width: 100%;
+    background-size: cover;
+
+}
+
+
+
+h2{
+    color: white;
+    font-family: SF Pro Display;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+}
+
+.miniwrapper2{
+    display: flex;
+    padding-top: 63px;
+    color: white;
+    flex-direction: column;
+}
+
+.p2{
+    font-family: SF Pro Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.1120000034570694px;
+    text-align: center;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.section3{
+    height: 736px;
+    width: 100%;
+}
+
+.bgimg{
+    display: flex;
+    justify-content: center;
+    padding-top: 76px;
+}
+
+.section3p{
+    font-family: SF Pro Display;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.1120000034570694px;
+    text-align: center;
+}
+
+.miniwrapper3{
+    background: url("appleWatch.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 736px;
+    width: 100%;
+    background-size: cover;
+}
+
+.bgimg1{
+    display: flex;
+    justify-content: center;
+}
+
+.bgimgs4{
+    border: 2px solid white;
+    width: 49.5vw;
+    height: 500px;
+}
+
+
+.section4{
+    padding-top: 20px;
+}
+
+.img-left{
+    margin-left: 15px;
+}
+
+.h1{
+    width: 734px;
+    height: 580px;
+    position: absolute;
+    top: 2270px;
+}
+
+.h1img{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; 
+    width: 698px;
+}
+
+.h2{
+    width: 698px;
+    height: 580px;
+    position: absolute;
+    top: 2270px;
+}
+
+.ahead{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 115px; 
+    position: relative;
+}
+
+.leap{
+    position: absolute;
+    font-family: SF Pro Display;
+font-size: 5vw;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.335999995470047px;
+left: 300px;
+color: white;
+}
+
+.linkslp{
+    display: flex;
+    justify-content: center;
+    width: 698px;
+}
+
+.img-right{
+    margin-right: 15px;
+    position: relative;
+}
+
+.imgsblock4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.world{
+    max-width: 100%;
+}
+
+.container4{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.airpodsh1{
+    top: 60px;
+    font-family: SF Pro Display;
+font-size: 40px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+width: 698px;
+}
+
+.airpodstext{
+    position: absolute;
+    top: 60px;
+}
+
+.rebuilt{
+    font-family: SF Pro Display;
+font-size: 21px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.335999995470047px;
+text-align: center;
+color: white;
+}
+
+
+.img-righta{
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.23100000619888306px;
+text-align: center;
+
+}
+
+.link-titul{
+    text-align: center;
+}
+
+.buy-link{
+    padding-right: 20px;
+}
+
+
+.circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #00000029;
+    margin-right: 15px;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer{
+    background: #F5F5F7;
+    margin-top: 20px;
+}
+
+.footer-text{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+color: #6E6E73;
+}
+
+.br-p{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+color: #6E6E73;
+}
+
+.footer-text{
+    height: 15px;
+}
+
+.line{
+    border: 1px solid #D2D2D7;
+}
+
+.footer-ul1{
+    width: 170px;
+}
+
+.shop-learn{
+    font-family: SF Pro Display;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.11999999731779099px;
+
+}
+
+.ul-li{
+    margin-top: 15px;
+}
+
+.fli{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #6E6E73;
+}
+
+#shop-color{
+    color: black;
+}
+
+.span-menu{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    z-index: 5;
+}
+
+.ulmenu{
+    display: none;
+}
+
+
+
+
+.big-img-block{
+    display: block;
+    text-align: center;
+}
+
+.close:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+}
+
+.span-header:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.tranzition-ul{
+    transition: 1.5s; 
+}
+
+.swiper-slide{
+    text-align: center;
+    height: 500px;
+}
+
+.swiper-pagination{
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.imgh{
+    height: 400px;
+    width: 70vw;
+    border-radius: 20px;
+}
+
+
+
+@media(max-width: 1100px){
+    .imgsblock4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container4{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 900px){
+    .ulheader{display: none;}
+    .span-menu{
+        display: block;
+        margin-top: 5px;
+    }
+    .ulmenu{
+        display: none;
+        z-index: 10;
+        color: black;
+        padding-top: 5px;
+        width: 50px;
+        background-color: #D2D2D7;
+        padding-left: 20px;
+        padding-right: 45px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-top: 300px;
+    }
+
+    
+    .close{
+        font-size: 15px;
+        user-select: none;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+    }
+    .nav{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-between{
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+        justify-content: space-between;
+        width: 100px;
+    }
+
+    .shopimg{
+        margin-left: 23px;
+    }
+
+    .logo{
+        margin-left: 23px;
+    }
+}
+
+@media(max-width: 480px){
+    .wrapper{
+       max-width: 100%;
+    }
+
+    
+}

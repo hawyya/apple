@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+<style>
+
+body{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 44px;
+    background: #000000CC;
+    color: white;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: SF Pro Display;
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.335999995470047px;
+
+}
+
+.ulheader{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+}
+
+li{
+    display: flex;
+    padding-right: 42px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.searchimg{
+    position: absolute;
+    top: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.shopimg{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper{
+    background: url("bg1.png");
+    height: 736px;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: SF Pro Display;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.miniwrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.p1{
+    font-family: SF Pro Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.1120000034570694px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+}
+
+.link1{
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.23100000619888306px;
+    padding-right: 20px;
+}
+
+.link2{
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.23100000619888306px;
+}
+
+a{
+    text-decoration: none;
+    color: #0066CC;
+}
+
+.wrapper1{
+    background: url("bg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 736px;
+    width: 100%;
+    background-size: cover;
+
+}
+
+
+
+h2{
+    color: white;
+    font-family: SF Pro Display;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+}
+
+.miniwrapper2{
+    display: flex;
+    padding-top: 63px;
+    color: white;
+    flex-direction: column;
+}
+
+.p2{
+    font-family: SF Pro Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.1120000034570694px;
+    text-align: center;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.section3{
+    height: 736px;
+    width: 100%;
+}
+
+.bgimg{
+    display: flex;
+    justify-content: center;
+    padding-top: 76px;
+}
+
+.section3p{
+    font-family: SF Pro Display;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.1120000034570694px;
+    text-align: center;
+}
+
+.miniwrapper3{
+    background: url("appleWatch.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 736px;
+    width: 100%;
+    background-size: cover;
+}
+
+.bgimg1{
+    display: flex;
+    justify-content: center;
+}
+
+.bgimgs4{
+    border: 2px solid white;
+    width: 49.5vw;
+    height: 500px;
+}
+
+
+.section4{
+    padding-top: 20px;
+}
+
+.img-left{
+    margin-left: 15px;
+}
+
+.h1{
+    width: 734px;
+    height: 580px;
+    position: absolute;
+    top: 2270px;
+}
+
+.h1img{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; 
+    width: 698px;
+}
+
+.h2{
+    width: 698px;
+    height: 580px;
+    position: absolute;
+    top: 2270px;
+}
+
+.ahead{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 115px; 
+    position: relative;
+}
+
+.leap{
+    position: absolute;
+    font-family: SF Pro Display;
+font-size: 5vw;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.335999995470047px;
+left: 300px;
+color: white;
+}
+
+.linkslp{
+    display: flex;
+    justify-content: center;
+    width: 698px;
+}
+
+.img-right{
+    margin-right: 15px;
+    position: relative;
+}
+
+.imgsblock4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.world{
+    max-width: 100%;
+}
+
+.container4{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.airpodsh1{
+    top: 60px;
+    font-family: SF Pro Display;
+font-size: 40px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+width: 698px;
+}
+
+.airpodstext{
+    position: absolute;
+    top: 60px;
+}
+
+.rebuilt{
+    font-family: SF Pro Display;
+font-size: 21px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.335999995470047px;
+text-align: center;
+color: white;
+}
+
+
+.img-righta{
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.23100000619888306px;
+text-align: center;
+
+}
+
+.link-titul{
+    text-align: center;
+}
+
+.buy-link{
+    padding-right: 20px;
+}
+
+
+.circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #00000029;
+    margin-right: 15px;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer{
+    background: #F5F5F7;
+    margin-top: 20px;
+}
+
+.footer-text{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+color: #6E6E73;
+}
+
+.br-p{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+color: #6E6E73;
+}
+
+.footer-text{
+    height: 15px;
+}
+
+.line{
+    border: 1px solid #D2D2D7;
+}
+
+.footer-ul1{
+    width: 170px;
+}
+
+.shop-learn{
+    font-family: SF Pro Display;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.11999999731779099px;
+
+}
+
+.ul-li{
+    margin-top: 15px;
+}
+
+.fli{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #6E6E73;
+}
+
+#shop-color{
+    color: black;
+}
+
+.span-menu{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    z-index: 5;
+}
+
+.ulmenu{
+    display: none;
+}
+
+
+
+
+.big-img-block{
+    display: block;
+    text-align: center;
+}
+
+.close:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+}
+
+.span-header:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.tranzition-ul{
+    transition: 1.5s; 
+}
+
+.swiper-slide{
+    text-align: center;
+    height: 500px;
+}
+
+.swiper-pagination{
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.imgh{
+    height: 400px;
+    width: 70vw;
+    border-radius: 20px;
+}
+
+
+
+@media(max-width: 1100px){
+    .imgsblock4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container4{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 900px){
+    .ulheader{display: none;}
+    .span-menu{
+        display: block;
+        margin-top: 5px;
+    }
+    .ulmenu{
+        display: none;
+        z-index: 10;
+        color: black;
+        padding-top: 5px;
+        width: 50px;
+        background-color: #D2D2D7;
+        padding-left: 20px;
+        padding-right: 45px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-top: 300px;
+    }
+
+    
+    .close{
+        font-size: 15px;
+        user-select: none;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+    }
+    .nav{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-between{
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+        justify-content: space-between;
+        width: 100px;
+    }
+
+    .shopimg{
+        margin-left: 23px;
+    }
+
+    .logo{
+        margin-left: 23px;
+    }
+}
+
+@media(max-width: 480px){
+    .wrapper{
+       max-width: 100%;
+    }
+
+    
+}
+</style>
+<body>
+    <header class="header">
+        <div class="container">
+        <nav class="nav">
+            <div class="logo">
+                <img src="applelogo.png" alt="" class="applelogo">
+            </div>
+        <ul class="ulheader">
+            <li>Store</li>
+            <li>Mac</li>
+            <li>Ipad</li>
+            <li>Iphone</li>
+            <li>Watch</li>
+            <li>AirPods</li>
+            <li>TV & HOME</li>
+            <li>Only on Apple</li>
+            <li>Support</li>
+        </ul>
+        <div class="header-between">
+        <a class="span-header">
+            <span class="span-menu"></span>
+            <span class="span-menu"></span>
+            <span class="span-menu"></span>
+        </a>
+        <div class="tranzition-ul">
+        <ul class="ulmenu">
+            <div class="close">✖</div>
+            <li class="li-hov">Store</li>
+            <li class="li-hov">Mac</li>
+            <li class="li-hov">Ipad</li>
+            <li class="li-hov">Iphone</li>
+            <li class="li-hov">Watch</li>
+            <li class="li-hov">AirPods</li>
+            <li class="li-hov">TV & HOME</li>
+            <li class="li-hov">Only on Apple</li>
+            <li class="li-hov">Support</li>
+        </ul>
+    </div>
+        <div class="search">
+            <img src="search.png" alt="" class="searchimg">
+        </div>
+        <div class="shopping">
+            <img src="shopping.png" alt="" class="shopimg">
+        </div>
+    </div>
+    </nav>
+</div>
+    </header>
+    <main class="main">
+        <section class="section1">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="miniwrapper">
+                        <div class="miniwrap77">
+                <h1>iphone 14</h1>
+                <p class="p1">Big and bigger.</p>
+                <div class="container2">
+                <a class="link1" href="#">Learn more</a>
+                <a class="link2" href="#">Buy</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="wrapper1">
+                <div class="container">
+                    <div class="miniwrapper2">
+                        <h2>iphone 14 Pro</h2>
+                        <p class="p2">Pro. Beyond.</p>
+                        <div class="container3">
+                        <a class="link1" href="#">Learn more</a>
+                        <a class="link2" href="#">Buy</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="miniwrapper3">
+            <div class="container">
+                    <div class="bgimg">
+                        <img src="section3.png" alt="">
+                    </div>
+                    <div class="section3p">
+                        <p>Adventure awaits.</p>
+                            <a class="link1" href="#">Learn more</a>
+                            <a class="link2" href="#">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+        </section>
+        <div class="section5">
+            <div class="container4">
+            <div class="img5">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img class="imgh" src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/DNEHBZWWYFAV7JNTLBBWM44CCY.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="imgh" src="https://i.blogs.es/eebf3b/ceo-of-apple/450_1000.webp" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="imgh" src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/DNEHBZWWYFAV7JNTLBBWM44CCY.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="imgh" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEJ92kuoGJQJK1SPb0BtNNsrtzQFmihLbaJbQgj6dQ5uYRAKUQiOxxbj1_WTBn5mIJN7Q&usqp=CAU" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-p">
+            <p class="footer-text">
+            <p class="br-p">1. iPhone 8 or later users may subscribe without an Apple Watch later this fall.</p><br>
+            <p class="br-p">A subscription is required for Apple Fitness+.</p><br>
+            <p class="br-p">Apple Fitness+ requires iOS 14.3 or later, iPadOS 14.3 or later, watchOS 7.2 or later, and tvOS 14.3 or later.</p><br>
+            <p class="br-p">To get the newest features, make sure your devices are running the latest software version.</p><br>
+        </div>
+        <div class="footer-line">
+            <div class="line"></div>
+        </div>
+        <div class="footer-ul1">
+            <div class="li-flex">
+            <div class="ul-li">
+            <ul>
+                <li class="shop-learn fli" id="shop-color">Shop and Learn</li>
+                <li class="fli">Store</li>
+                <li class="fli">Mac</li>
+                <li class="fli">Ipad</li>
+                <li class="fli">Iphone</li>
+                <li class="fli">Watch</li>
+                <li class="fli">AirPods</li>
+                <li class="fli">TV & Home</li>
+                <li class="fli">AirTag</li>
+                <li class="fli">Accessories</li>
+                <li class="fli">Gift Cards</li>
+            </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
+
